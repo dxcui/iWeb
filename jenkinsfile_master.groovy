@@ -7,6 +7,7 @@ stage('pull source code') {
 stage('maven compile & package') {
     node('master'){
 //        sh ". /etc/profile"
+
 //        sh ". ~/.bash_profile"
 
         //定义maven java环境
